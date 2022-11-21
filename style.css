@@ -7,3 +7,141 @@
 }
 
 /* Write CSS code below */
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #242531;
+}
+.profile-image{
+    height: auto;
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 35%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    color: white;
+}
+.designation{
+   font-size: 1rem; 
+   text-align: center;
+   text-transform: uppercase;
+   padding-bottom: 0.5rem;
+   color: white;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: whitesmoke;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.personal-details{
+    margin-top: 21px;
+    color: whitesmoke;
+}
+.location{
+    margin-top: 15px;
+    color:whitesmoke
+}
+.icon {
+    margin: 0 0.5rem;
+}
+
+.skills {
+    font-size:0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: whitesmoke;
+}
+
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+    background-color: white;
+}
+
+
+.progress-css {
+    height: 4px;
+    border: 1px solid white;
+    background-color: #fff;
+    width: 59%;
+}
+
+.progress-dsa {
+    height: 4px;
+    border: 1px solid white;
+    background-color:#fff;
+    width: 90%;
+}
+
+.list{
+    padding-top: 15px;
+}
+.skill{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    color: whitesmoke;
+    
+}
+.left-content{
+    
+    padding: 1rem;
+    color: #f7f7f7;
+}
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
+    /* width:700px; */
+    background: linear-gradient(#00d0ff 11%,#5e2020 21%,rgb(10 135 60));
+
+}.right-main-content{
+    padding: 2rem 3rem;
+}
+.about-me-section{
+    color: whitesmoke;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
